@@ -1,0 +1,41 @@
+#name
+  #Cd: drag coeff
+  #initial_speed: m/s
+  #initial_angle: deg
+  #initial_height: m
+  #x_hoop: m
+  # backboard: bool
+  # e: 0 to 1
+
+2-point:
+  Cd: 0.47
+  initial_speed: 2.73
+  initial_angle: 30
+  initial_height: 0.15
+  x_hoop: 0.35
+  backboard: True
+  e: 0.67
+2.5-point:
+  Cd: 0.47
+  initial_speed: 2.48
+  initial_angle: 30
+  initial_height: 0.15
+  x_hoop: 0.4
+  backboard: False
+  e: 0.67
+3-point:
+  Cd: 0.47
+  initial_speed: 3.25
+  initial_angle: 30
+  initial_height: 0.15
+  x_hoop: 0.7
+  backboard: True
+  e: 0.67
+3.5-point:
+  Cd: 0.47
+  initial_speed: 2.73
+  initial_angle: 30
+  initial_height: 0.15
+  x_hoop: 0.55
+  backboard: False
+  e: 0.67
